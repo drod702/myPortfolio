@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>::DROD702 : PORTFOLIO::</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+
+</head>
+<body>
+<div onclick="void(0);">
+<div class="overflow-wrap">
+
+<!-- HOME -->
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal">
+      <div class="carousel-wrap">
+        <div class="window">
+          <div id="carousel">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+          <i class="mdi mdi-chevron-right" id="next"></i>
+        </div>
+        
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+      </div>
+      <i class="close mdi mdi-close"></i>
+    </div>
+  </div>
+
+  <section id="home" class="flex">
+    <div id="pt" class="canvas"></div>
+    <div class="flex">
+
+      <div class="text">
+        Hello, I'm <span class="highlight">Frederico "D'kie" Rodriguez</span>.
+        <br>
+        I'm a web developer, graphic designer & animator.
+      </div>
+
+      <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
+
+      <nav class="flex">
+        <div class="link-wrap">
+          <div class="active page-link" dest="home">home</div>
+          <div class="page-link" dest="about">about</div>
+          <div class="page-link" dest="portfolio">portfolio</div>
+          <div class="page-link" dest="contact">contact</div>
+        </div>
+        <i class="mdi mdi-menu"></i>
+      </nav>
+    </div>
+
+  </section>
+
+<!-- ABOUT -->
+  <section id="about">
+    <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+      <div class="flex row label-wrap">
+        <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-speedometer"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold">Fast</div>
+            <div>Fast turn around, my highest priority.</div>
+          </div>
+        </div>
+
+        <div class="flex bullet-wrap " >
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+            <div class="hexagon">
+              <i class="mdi mdi-cellphone-link"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+            <div class="label bold">Responsive</div>
+            <div>My layouts and designs will work, big or small.</div>
+          </div>
+        </div>
+        </div>
+        <div class="flex row-gt-sm">
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+              <div class="hexagon">
+                <i class="mdi mdi-lightbulb-outline"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+              <div class="label bold">Intuitive</div>
+              <div>Strong preference for what is needed.</div>
+            </div>
+          </div>
+
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+              <div class="hexagon">
+                <i class="mdi mdi-rocket"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+              <div class="label bold">Dynamic</div>
+              <div>Fixing issues and making improvements.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+          <img src="img/me.jpg" class="me">
+          <div>
+            <div class="label bold">Who am I?</div>
+            <div> 
+              Hi, I'm Frederico Rodriguez, my family and friends know me as "D'kie" (dee-kee). I graduated with a Bachelor of Science in Visual Effects & Motion Graphics (VEMG) at The Art Institute of Las Vegas. I have been working in the industry for over 20 years. Now, I venture with programming as a self taught. In my website, I showcase my work and experience.
+
+              <br> <br>
+              <a class="page-link highlight" href="#">Download my RESUME.</a>
+              <br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row apps">
+        <div class="apps-container">
+          <img src="img/photoshopIcon.png" alt="">
+          <img src="img/illustratorIcon.png" alt="">
+          <img src="img/afterEffectsIcon.png" alt="">
+          <img src="img/htmlIcon.png" alt="">
+          <img src="img/cssIcon.png" alt="">
+          <img src="img/javascriptIcon.png" alt="">
+          <img src="img/pythonIcon.png" alt="">
+          <img src="img/vscodeIcon.png" alt="">
+          <img src="img/reactIcon.png" alt="">
+          <img src="img/sassIcon.png" alt="">
+          <img src="img/unityIcon.png" alt="">
+          <img src="img/sketchIcon.png" alt="">
+          <img src="img/davinciIcon.png" alt="">
+        </div>
+      </div>
+      </div>
+  </section>
+
+<!-- PORTFOLIO -->
+  <section class="flex" id="portfolio">
+
+    <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+    <div class="filter-wrap waypoint" data-animation="fade-in">
+      <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        <div class="filter" data-filter=".prog">PROGRAMMING</div>
+        <div class="filter" data-filter=".gfx">GRAPHICS</div>
+        <div class="filter" data-filter=".anim">ANIMATION</div>
+      </div>
+      <div class="float-bar">
+        <div class="flex row">
+          <div class="filter" data-filter="all">ALL</div>
+          <div class="filter" data-filter=".prog">PROGRAMMING</div>
+          <div class="filter" data-filter=".gfx">GRAPHICS</div>
+          <div class="filter" data-filter=".anim">ANIMATION</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="container flex row wrap waypoint">
+      <div class="mix prog" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">KAHT Beauty LV</div>
+            <span class="highlight">Web Design</span>
+          </div>
+          <div class="button" id="kaht">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix gfx" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Surfing Dragon</div>
+            <span class="highlight">T-Shirt Design</span>
+          </div>
+          <div class="button" id="dragon">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix anim" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Porsche</div>
+            <span class="highlight">3D Animation</span>
+          </div>
+          <div class="button" id="porsche">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix anim" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Breakout</div>
+            <span class="highlight">Motion Graphics</span>
+          </div>
+          <div class="button" id="breakout">LEARN MORE</div>
+        </div> 
+      </div>
+      
+      <div class="mix anim" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Circle</div>
+            <span class="highlight">Motion Graphics</span>
+          </div>
+          <div class="button" id="circle">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix prog" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">My Portfolio</div>
+            <span class="highlight">Web Design</span>
+          </div>
+          <div class="button" id="portfolio">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix gfx" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Techno Head</div>
+            <span class="highlight">Flyer Design</span>
+          </div>
+          <div class="button" id="rave">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix prog" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Locate This</div>
+            <span class="highlight">Directory</span>
+          </div>
+          <div class="button" id="locate">LEARN MORE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+      <path d="M0 0 L50 100 L100 0 Z" fill="#F5F5F5" stroke="#F5F5F5"></path>
+    </svg>
+    <div class="container flex">
+      <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to work together?</div>
+      <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" >
+        <input placeholder="Name" type="text" name="name" id="fname" required>
+        <input placeholder="Enter email" type="email" name="email" id="lname" required>
+        <textarea placeholder="Your Message" type="text" name="message" id="subject"></textarea>
+        <div id="success">
+          <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
+        </div>
+        <input class="button" type="submit" id="submit" value=SUBMIT>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/drod702">
+        <div class="flex icon" id="icon-2"> 
+          <i class="mdi mdi-linkedin"></i>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/drod702efx">
+        <div class="flex icon" id="icon-3"> 
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/drod702efx/">
+        <div class="flex icon" id="icon-4"> 
+          <i class="mdi mdi-instagram"></i>
+        </div>
+      </a>
+    </div>
+    <div class="info-box">
+      <div class="footnote">All rights reserved. Frederico "D'kie" Rodriguez. <span class="highlight">Copyright &copy; 2021</span></div>
+    </div>
+  </footer>
+
+</div>
+</div>
+</body>
+</html>
